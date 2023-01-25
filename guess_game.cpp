@@ -1,4 +1,4 @@
-/*	Guess game	*/
+/*	Guess game by Night3098 	*/
 
 #include <algorithm>
 #include <cctype>
