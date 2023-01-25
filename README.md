@@ -5,7 +5,7 @@
 git clone https://github.com/night3098/GuessGameCPP
 cd GuessGameCPP
 ```
-# Compiling
+# Сompilation
 `c++ -x c++ -o guess_game guess_game.cpp`
 # Start
 `./guess_game.cpp`
