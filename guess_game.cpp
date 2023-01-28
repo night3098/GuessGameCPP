@@ -14,7 +14,7 @@
 using namespace std;
 
 int main() {
-  const int MAX_WRONG = 10;
+  const int MAX_WRONG = 5;
   int i = 0;
   int y = 0;
 
@@ -32,6 +32,7 @@ int main() {
   words.push_back("photo");
   words.push_back("vector");
   words.push_back("title");
+  words.push_back("console");
 
   srand(static_cast<unsigned int>(time(0)));
   random_shuffle(words.begin(), words.end());
