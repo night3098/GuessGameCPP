@@ -54,6 +54,7 @@ int main() {
 
     char guess;
     cout << "Enter the letter: " << soFar << endl;
+    cout << "Letter: ";
     cin >> guess;
 
     while ((used.find(guess) != string::npos) && (used.find(guess) > 5)) {
